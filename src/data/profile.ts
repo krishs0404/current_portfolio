@@ -30,6 +30,7 @@ export type Profile = {
   linkedin: string;
   github: string;
   tagline: string;
+  about?: string[];
   education: Education;
   experiences: Experience[];
   projects: Project[];
@@ -49,6 +50,11 @@ export const profile: Profile = {
   github: "https://github.com/krishs0404",
   tagline:
     "ML engineer + computational biology researcher. Building production AI agents and genomics pipelines.",
+  about: [
+    "Hey! I'm Krish — I love building things with AI and shipping them fast. If there's a problem worth solving, I’ll probably prototype an agent for it before breakfast.",
+    "When I'm not coding, I'm playing chess (blitz addict, constantly blundering and loving it) or talking sports. I get way too invested in underdog storylines and game analytics.",
+    "I’m also dipping my toes into quant trading — learning factor models, backtesting simple strategies, and geeking out over market microstructure. It’s puzzle-solving with real stakes, which is my kind of fun.",
+  ],
   education: {
     school: "Stanford University",
     degree: "B.S. in Mathematics / Computer Science",
