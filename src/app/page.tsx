@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <div className="font-sans">
       <Hero />
+      <AboutSection />
       <ExperienceSection />
       <ProjectsSection />
       <SkillsSection />
       <EducationSection />
-      <AboutSection />
       <BlogSection />
       <ContactSection />
     </div>
